@@ -1,0 +1,11 @@
+2020-03-04 16:46:26,346 INFO [root] [__init__.py(<module>:15)] - 测试日志是否能够正常打印2！
+2020-03-04 16:46:26,865 INFO [root] [test_emp.py(test02_login_success:101)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c96a2dac-c876-4935-bfc3-92f5730ecf0d'}
+2020-03-04 16:46:26,866 INFO [root] [test_emp.py(test02_login_success:104)] - 取出的令牌为：Bearer c96a2dac-c876-4935-bfc3-92f5730ecf0d
+2020-03-04 16:46:26,867 INFO [root] [test_emp.py(test02_login_success:108)] - 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer c96a2dac-c876-4935-bfc3-92f5730ecf0d'}
+2020-03-04 16:46:27,186 INFO [root] [test_emp.py(test03_add_emp:115)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235124433651585024'}}
+2020-03-04 16:46:27,191 INFO [root] [test_emp.py(test03_add_emp:121)] - 保存的员工ID为：1235124433651585024
+2020-03-04 16:46:27,286 INFO [root] [test_emp.py(test04_query_emp:126)] - 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235124433651585024', 'mobile': '13732323666', 'username': '王XX77711', 'password': 'a8bcec0512a27287f46376f29fec0225', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-04 16:46:28,385 INFO [root] [test_emp.py(test05_modify_emp:133)] - 修改员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1235124433651585024'}}
+2020-03-04 16:46:28,625 INFO [root] [test_emp.py(test05_modify_emp:144)] - 要查询的SQL语句为：select username from bs_user where id = 1235124433651585024;
+2020-03-04 16:46:28,828 INFO [root] [test_emp.py(test05_modify_emp:149)] - SQL查询出来的结果为：('new_tom',)
+2020-03-04 16:46:28,918 INFO [root] [test_emp.py(test06_delete_emp:176)] - 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
